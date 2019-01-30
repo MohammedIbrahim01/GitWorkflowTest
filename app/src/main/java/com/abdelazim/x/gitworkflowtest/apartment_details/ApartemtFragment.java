@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 
 import com.abdelazim.x.gitworkflowtest.R;
 
@@ -15,6 +16,8 @@ import com.abdelazim.x.gitworkflowtest.R;
  */
 public class ApartemtFragment extends Fragment {
 
+
+    EditText editText;
 
     public ApartemtFragment() {
         // Required empty public constructor
@@ -26,6 +29,8 @@ public class ApartemtFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_apartemt, container, false);
+
+
     }
 
 }
