@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 
 import com.abdelazim.x.gitworkflowtest.R;
 
@@ -15,6 +16,7 @@ import com.abdelazim.x.gitworkflowtest.R;
  */
 public class FavoriteFragment extends Fragment {
 
+    EditText editText;
 
     public FavoriteFragment() {
         // Required empty public constructor
